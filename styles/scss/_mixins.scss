@@ -1,0 +1,9 @@
+@mixin clickable-item {
+  cursor: pointer;
+  transition: $animation;
+
+  &:hover {
+    opacity: 0.65;
+    transition: $animation;
+  }
+}
